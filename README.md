@@ -2,7 +2,7 @@
 
 A interactive web-based Pokédex that simulates the classic Pokémon device. This application allows you to browse through the first generation of Pokémon (1-151) with a nostalgic interface.
 
-![Pokedex Preview](pokedex.png)
+
 
 ## Features
 
