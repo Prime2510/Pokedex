@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section id="pokedex">
+      <!-- Main Pokedex Body -->
+      <div id="pokedex-main">
+        <div id="pokedex-header">
+          <div class="camera-lens"></div>
+          <div class="indicator-lights">
+            <div class="light red"></div>
+            <div class="light yellow"></div>
+            <div class="light green"></div>
+          </div>
+        </div>
+
+        <!-- Door -->
+        <div id="pokedex-left" class="close">
+          <div class="corner-cut"></div>
+          <div class="detail-lines">
+            <div class="line"></div>
+            <div class="triangle"></div>
+          </div>
+        </div>
+
+        <!-- Content Area -->
+        <div id="screen-container">
+          <div id="screen-frame">
+            <div id="screen">
+              <div id="pokedex-image">
+                <!-- Pokemon image will be added here -->
+              </div>
+            </div>
+            <div class="screen-dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls-section">
+          <div class="d-pad">
+            <button id="up-button" class="d-pad-button up">▲</button>
+            <button id="right-button" class="d-pad-button right">▶</button>
+            <button id="down-button" class="d-pad-button down">▼</button>
+            <button id="left-button" class="d-pad-button left">◀</button>
+            <div class="d-pad-center"></div>
+          </div>
+
+          <div class="action-buttons">
+            <div class="green-screen">
+              <input type="number" id="pokemon-search" min="1" max="151" placeholder="#" />
+            </div>
+            <div class="black-buttons">
+              <div class="black-button"></div>
+              <div class="black-button"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blue-buttons">
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
